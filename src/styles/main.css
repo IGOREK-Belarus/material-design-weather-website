@@ -1,0 +1,24 @@
+:root{
+    --color-light-blue: #ffffff;
+    --color-blue: #ffffff;
+    --color-slighty-dark-blue: #ffffff;
+    --color-black: #000000;
+}
+
+#navrail{
+    width: 96px;
+    height: 100%;
+    top: 0%;
+    background-color: red;
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+}
+.navrail_button{
+    display: flex;
+    width: 80px;
+    height: 56px;
+    text-align: center;
+    align-items: center;
+    flex-direction: column;
+}
