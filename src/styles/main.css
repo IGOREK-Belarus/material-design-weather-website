@@ -1,7 +1,4 @@
 :root{
-    --color-light-blue: #ffffff;
-    --color-blue: #ffffff;
-    --color-slighty-dark-blue: #ffffff;
     --color-black: #000000;
 }
 
@@ -9,10 +6,12 @@
     width: 96px;
     height: 100%;
     top: 0%;
+    left: 0%;
     background-color: red;
     position: fixed;
     display: flex;
     flex-direction: column;
+    padding-top: 20px;
 }
 .navrail_button{
     display: flex;
@@ -21,4 +20,6 @@
     text-align: center;
     align-items: center;
     flex-direction: column;
+    margin: -2px auto 24px;
+    padding: 2px;
 }
